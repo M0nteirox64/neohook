@@ -15,9 +15,9 @@ banner = """
                     /_/ |_/  /_____/  \____/ /_/ /_/  \____/ \____/ /_/ |_|  
                                                          
                                                                                                   
-                                [Tool Developed by Vains]
-                          [! https://www.youtube.com/@Vainsx47 !] 
-                                  < Control any webhook >  
+                                [Tool Developed by PSVMonteir0]
+                          [! https://www.youtube.com/@monteiropsv !] 
+                                  < Control your webhook >  
         
 
 
