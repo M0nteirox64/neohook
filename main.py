@@ -49,14 +49,14 @@ while True:
 
         webhook = SyncWebhook.from_url(webhook)
         webhook.send(msg)
-        print(Colorate.Horizontal(Colors.red_to_white, f"[VAINS] | [SUCESS] | [+] Message sent: {msg}", 1))
+        print(Colorate.Horizontal(Colors.red_to_white, f"[PSV] | [SUCESS] | [+] Message sent: {msg}", 1))
 
     elif chc == 2:
 
         webhook = input(Colorate.Horizontal(Colors.red_to_white,"[/] Choice:~/@Webhook URL~$ "))
         response = requests.delete(webhook)
 
-        print(Colorate.Horizontal(Colors.red_to_white, "[VAINS] | [+] Webhook sucessfuly deleted.", 1))
+        print(Colorate.Horizontal(Colors.red_to_white, "[PSV] | [+] Webhook sucessfuly deleted.", 1))
 
     elif chc == 3:
         webhook = input(Colorate.Horizontal(Colors.red_to_white,"[/] Choice:~/@Webhook URL~$ "))
@@ -67,7 +67,7 @@ while True:
         async def edit():
             webhook.edit(name=f"{NewName}")
         asyncio.run(edit())
-        print(Colorate.Horizontal(Colors.red_to_white, f"[VAINS] | [SUCESS] | [+] Renamed webhook: {NewName}", 1))
+        print(Colorate.Horizontal(Colors.red_to_white, f"[PSV] | [SUCESS] | [+] Renamed webhook: {NewName}", 1))
 
     elif chc == 4:
         webhook = input(Colorate.Horizontal(Colors.red_to_white,"[/] Choice:~/@Webhook URL~$ "))
@@ -83,13 +83,13 @@ while True:
                 res = requests.post(webhook, json=msgt)
 
                 if res.status_code == 204:
-                    print(Colorate.Horizontal(Colors.red_to_white, f"[VAINS] | [SUCESS] | [+] Message sent: {msg}.", 1))
+                    print(Colorate.Horizontal(Colors.red_to_white, f"[PSV] | [SUCESS] | [+] Message sent: {msg}.", 1))
                 else:
-                    print(Colorate.Horizontal(Colors.red_to_white, f"[VAINS] | [ERROR] | [-] Error while sending {msg} | Status code: {res.status_code}", 1))
+                    print(Colorate.Horizontal(Colors.red_to_white, f"[PSV] | [ERROR] | [-] Error while sending {msg} | Status code: {res.status_code}", 1))
            asyncio.run(send())
 
     elif chc == 5:
-        print(Colorate.Horizontal(Colors.red_to_white, f"[VAINS] | [DISCORD SERVER] | > https://discord.gg/dUUBrkRX5Y", 1))
+        print(Colorate.Horizontal(Colors.red_to_white, f"[PSV] | [DISCORD SERVER] | > https://discord.gg/dUUBrkRX5Y", 1))
         os.system("PAUSE")
 
     elif chc == 6:
