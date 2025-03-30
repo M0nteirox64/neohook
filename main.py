@@ -89,7 +89,7 @@ while True:
            asyncio.run(send())
 
     elif chc == 5:
-        print(Colorate.Horizontal(Colors.red_to_white, f"[PSV] | [DISCORD SERVER] | > https://discord.gg/dUUBrkRX5Y", 1))
+        print(Colorate.Horizontal(Colors.red_to_white, f"[PSV] | [DISCORD SERVER] | > [discontinued]", 1))
         os.system("PAUSE")
 
     elif chc == 6:
